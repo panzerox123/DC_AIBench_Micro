@@ -1,4 +1,4 @@
-# DC_AIBench_Micro
+# AIBench Micro Benchmark
 
 AIBench: An Industry Standard AI Benchmark Suite for datacenter AI benchmarking.
 
