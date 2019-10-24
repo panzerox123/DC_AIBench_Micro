@@ -1,6 +1,7 @@
 # AIBench Micro Benchmark
 
-AIBench: An Industry Standard AI Benchmark Suite for datacenter AI benchmarking.
+AIBench: An Industry Standard Internet Service AI Benchmark Suite
+
 
 The user manual of AIBench: 
 http://www.benchcouncil.org/AIBench/files/AIBench-User-Manual.pdf
