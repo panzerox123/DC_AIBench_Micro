@@ -14,8 +14,8 @@ os.environ['CUDA_VISIBLE_DEVICES']=''
 data = dict()
 
 #input_A
-height = int(sys.argv[2])*int(sys.argv[3])/(224/int(sys.argv[2]))
-width = int(sys.argv[2])*int(sys.argv[3])/(224/int(sys.argv[2]))
+height = int(int(sys.argv[2])*int(sys.argv[3])/(224/int(sys.argv[2])))
+width = int(int(sys.argv[2])*int(sys.argv[3])/(224/int(sys.argv[2])))
 #data["A"] = np.float32(np.random.rand(A_height, A_width))
 
 #input_B
