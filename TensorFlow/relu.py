@@ -22,7 +22,7 @@ input_channels = int(sys.argv[3])
 #session
 sess = tf.Session()
 #result = tf.nn.relu(data["x"])
-result = tf.nn.relu(np.float32(np.random.rand(x_size*x_size/56*input_channels)))
+result = tf.nn.relu(np.float32(np.random.rand(int(x_size*x_size/56*input_channels))))
 begin = clock()
 for i in range(input_batch*input_batch*56):
     sess.run(result)

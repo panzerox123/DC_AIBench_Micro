@@ -4,4 +4,4 @@ RUN pip install tensorflow==1.15.5
 
 COPY ./TensorFlow/ ./
 
-CMD ["/bin/bash", "./run-tensorflow.sh", "matmul", "medium"]
+CMD ["/bin/bash", "./run-tensorflow.sh", "relu", "medium"]
